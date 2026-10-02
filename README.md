@@ -21,3 +21,7 @@ An algorithmic music theory engine written in pure Python standard library. It t
 ## Instructions
 
 See [INSTRUCTIONS.md](./INSTRUCTIONS.md) for CLI commands, JSON API input/output, and music theory examples.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) - see the [LICENSE](./LICENSE) file for details.
