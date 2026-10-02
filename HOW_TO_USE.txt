@@ -1,0 +1,57 @@
+HOW TO USE: reharmonization-engine
+==================================================
+
+PURPOSE
+  Upgrades simple, standard, or repetitive chord progressions into 3 distinct
+  sophisticated variations: Neo-Soul & R&B, Modern Jazz (Tritone Sub), and
+  Cinematic Modal Interchange with step-by-step harmonic explanations.
+
+CAPABILITIES
+  - Flavor 1: Neo-Soul & R&B (lush 9ths/11ths/13ths + chromatic half-step passing chords)
+  - Flavor 2: Modern Jazz (tritone substitutions, altered dominants, and chromatic basslines)
+  - Flavor 3: Cinematic Modal Interchange (borrowed minor iv, bVI major 7ths, and backdoor bVII)
+  - Side-by-side original vs. variation progression comparisons
+  - Explains the exact music theory "secret sauce" behind every substitution
+  - Provides note-by-note chord voicings and spellings for keys and guitar
+  - Seamlessly bridges to ableton-midi-chord-builder for 1-click MIDI clip generation
+
+USE CASES
+  - A 4-chord loop feels too predictable and needs sophisticated passing chords
+  - You want to transform a simple pop chord sequence into a soulful D'Angelo or Robert Glasper groove
+  - You need dramatic, emotional tension and bittersweet release in a bridge or chorus
+  - You want to replace a harsh V7 dominant cadence with a silky tritone step-down
+  - You need modal borrowing to evoke nostalgia or cinematic wonder
+
+IDEAS
+  - Chain with chord-progression-recommender: find statistically popular chord loops, then reharmonize them
+  - Bridge to ableton-midi-chord-builder to export Drop-2 or Jazz Open voicings into Ableton Live
+  - Mix and match bars between Neo-Soul and Modal Interchange variations for a hybrid progression
+  - Use the minor iv chord substitution to write poignant intros or outro fades
+  - Turn basic trap and lo-fi beats into sophisticated R&B arrangements
+
+PROMPTS YOU CAN PASTE
+  Take this chord progression (C - Am - F - G) and give me 3 spicy reharmonizations.
+
+  Make this chord loop sound like Neo-Soul.
+
+  How can I add smooth jazz tritone substitutions to this chorus?
+
+  Add emotional borrowed chords from the parallel minor to this progression: F - Dm - Bb - C.
+
+  Reharmonize Dm7 - G7 - Cmaj7 using tritone substitutions and passing chords.
+
+EXAMPLE FLOW
+  You:   Reharmonize C - Am - F - G for Neo-Soul.
+  Model: [Runs reharmonization engine]
+         Original:  C -> Am -> F -> G
+         Neo-Soul:  Cmaj9 -> Am9 -> Fmaj9 -> D7alt -> Gmaj9
+         Theory:    Injected secondary dominant (D7alt) creating a chromatic lead-in to G.
+         Voicing:   D7alt = D - F# - C - Eb - Bb
+         [Offers 1-click Ableton MIDI clip generation via ableton-midi-chord-builder]
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Parse the input chords, tonic center, and key signature.
+  2. Compute 3 distinct variations: Neo-Soul, Modern Jazz Tritone Sub, and Cinematic Modal Interchange.
+  3. Format a clear comparison table contrasting original chords with each variation.
+  4. Detail the voice-leading rationale and music theory principles behind the substitutions.
+  5. Provide note-by-note chord spellings and offer to export MIDI clips directly into Ableton Live.
